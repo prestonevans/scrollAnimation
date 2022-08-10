@@ -32,6 +32,7 @@ function initializeElementsOutOfWindowHeight() {
       elems[i].style.opacity = '0';
       elems[i].style.transition = '1s ease';
     } else {
+        elems[i].style.transition = '0s ease'
       elems[i].style.transform = 'translateX(0)';
       elems[i].style.opacity = '1';
     }
